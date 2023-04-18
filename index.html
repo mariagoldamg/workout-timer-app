@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    
+    <div id="header">
+        <h1>Let's start this workout!</h1>   
+    </div>
+
+<div id="btn">
+    <button id="workout">Start your workout</button>
+  
+   
+
+</div>
+
+<br><br>
+<div id="btn">
+    <button id="soundButton">Play Music</button>
+</div>
+
+    <div id="container-countdown">
+    <div id="mobileOne">
+
+<div id="sport"><h2>Rope Jumping</h2>
+        <button class="timer" id="countdownOne">Rope Jumping </button></div>
+
+        <div id="sport"><h2>Push ups</h2>
+        <button class="timer"  id="countdownTwo">Push ups</button></div></div>
+        <div id="mobileOne">
+        <div id="sport"><h2>Sit ups</h2>
+            <button class="timer" id="countdownThree">Sit ups</button></div>
+
+            <div id="sport"><h2>Relax</h2>
+                <button class="timer"  id="countdownFour">Relax</button></div></div>
+
+       </div> 
+        
+    
+       <audio id="player" autoplay loop><source src="sportMusic.mp3" type="audio/mp3"></audio>
+        <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="myVideo" width="100%">
+        <source src="sport1.mp4" type="video/mp4" controls></video>
+        <script src="index.js" ></script>
+</body>
+</html>

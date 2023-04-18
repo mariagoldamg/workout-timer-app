@@ -1,0 +1,102 @@
+#header{
+    display: flex;
+    justify-content: center;
+    
+    }
+    
+    h1 {
+        font-size: 40px;
+        
+        color: rgb(236, 125, 15);
+    } 
+
+    h2 {
+        font-size: 30px;
+     
+        color:#425F57;
+       
+    }
+    #myVideo {
+    position: fixed;
+    top:0;
+    right:0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+    }
+
+        #container-countdown {
+            display: flex;
+            justify-content:space-around;
+        }
+        
+        .timer {
+            border:none;
+            font-size: 30px;
+            background: linear-gradient(to right, #d78431, #d8a056);
+            border-radius: 20px;
+            padding: 20px;
+            color:#425F57;
+            margin: 0; 
+        }
+
+        #sport {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #btn {
+           display: flex;
+           justify-content: center;
+        }
+        button {
+            border:none;
+            font-size: 20px;
+            background: linear-gradient(to right, #d78431, #d8a056);
+            border-radius: 20px;
+            padding: 10px;
+            color:#425F57;
+            margin-left: 20px;
+        }
+
+
+        button:hover {
+            background: linear-gradient(to right, #e6c213, #da4f0f);
+        }
+        
+        .pause {
+            border:none;
+            font-size: 20px;
+            background: linear-gradient(to right, #d78431, #d8a056);
+            border-radius: 20px;
+            padding: 10px;
+            color:#425F57;
+        }
+
+        @media all and (max-width:500px){
+
+            h2 {
+                font-size: 20px;
+
+                color:#425F57;
+                
+            }
+
+        .timer {
+            border:none;
+            font-size: 20px;
+            background: linear-gradient(to right, #d78431, #d8a056);
+            border-radius: 20px;
+            padding: 20px;
+            color:#425F57;
+            margin: 0; 
+        }
+       #mobileOne{
+        display: flex;
+        flex-direction: column;
+       }
+    
+    }
+
+   
